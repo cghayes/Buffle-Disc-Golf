@@ -115,6 +115,8 @@ body {
     margin: 18px 0px 0px 0px;
     border: none;
     font-size: 16px;
+    background-color: #fff;
+
   }
 
   .header-search button {
@@ -329,7 +331,7 @@ body {
     grid-template-columns: repeat(4,1fr);
     justify-items: center;
     justify-content: space-around;
-    gap: 20px;
+    gap: 4px;
     margin: 10px 0px;
     padding: 12px;
     width: 100%;
