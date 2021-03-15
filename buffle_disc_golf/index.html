@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--
-	Buffle Disc Golf
+	Buffle Disc Golf - HOMEPAGE
 -->
 <html lang="en">
   <head>
@@ -10,7 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buffle Disc Golf</title>
 
-    <!-- Link to external CSS file -->
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/8b6bf7c9c3.js" crossorigin="anonymous"></script>
+
+    <!-- External CSS files -->
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
@@ -19,53 +22,82 @@
   <body>
     <div class="container">
       <header class="box-1">
-        <div class="logo-wrapper">1</div>
-        <div class="search">2</div>
-        <div class="nav">3</div>
-        <div class="cart">4</div>
-      </header>
+        <div class="logo-wrapper">
+          <div class="header-logo">
+            <img src="assets/images/logo-desktop.svg">
+          </div>
+        </div> <!-- End logo-wrapper -->
+        <div class="header-search">
+          <form method="GET" action="">
+            <input type="text" name="search" maxlength="70" placeholder="Search" title="search input field">
+             <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div> <!-- End header-search -->
+        <div class="cart">
+          <i class="fas fa-shopping-cart"></i>
+          <a href="">Cart</a>
+        </div> <!-- End shopping cart -->
+        <div class="nav">
+          <ul>
+            <li><a href="">Discs</a></li>
+            <li><a href="">Bags & Carts</a></li>
+            <li><a href="">Accessories</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div> <!-- End nav -->
+      </header> <!-- End box 1 (header)-->
 
       <div class="box-2">
         <div id="feature-title">Featured Categories</div>
         <div class="lead-card">img1</div>
         <div class="lead-card">img2</div>
         <div class="lead-card">img3</div>
-      </div>
+      </div> <!-- End box 2 -->
 
       <div class="box-3">
         <div class="featured">img</div>
         <div class="featured">text</div>
-      </div>
+      </div> <!-- End box 3 -->
 
       <div class="box-4">
         <div class="featured">text</div>
         <div class="featured">img</div>
-      </div>
+      </div> <!-- End box 4 -->
 
       <div class="box-5">
         <div class="featured">img</div>
         <div class="featured">text</div>
-      </div>
+      </div> <!-- End box 5 -->
 
-      <div class="box-6">
-        <div id="social-media">[social media icons]</div>
-        <div class="footer-link-header">
-          <h5>Shipping</h5>
+      <footer class="box-6">
+        <div class="social-media">
+          <a href="" class="fab fa-facebook"></a>
+          <a href="" class="fab fa-twitter"></a>
+          <a href="" class="fab fa-instagram"></a>
+          <a href="" class="fab fa-youtube"></a>
         </div>
-        <div class="footer-link-header">
-          <h5>Returns</h5>
+        <div class="footer-link-col">
+          <h5>Explore</h5>
+          <ul>
+            <li><a href="">Blog</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Disc Search</a></li>
+            <li><a href="">Flight Chart</a></li>
+          </ul>
         </div>
-        <div class="footer-link-header">
-          <h5>About</h5>
+        <div class="footer-link-col">
+          <h5>Customer Service</h5>
+          <ul>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Shipping</a></li>
+            <li><a href="">Returns</a></li>
+            <li><a href="">Site Map</a></li>
+          </ul>
         </div>
-        <div class="footer-link-header">
-          <h5>Contact</h5>
-        </div>
-        <div id="disclaimer">[for educational purposes only]</div>
-      </div>
-
-      <div class="box-7">
-      </div>
+        <div id="disclaimer">This website is for educational purposes only &nbsp; | &nbsp; Calley Hayes ITWP 1450</div>
+      </footer> <!-- End box 6 (footer)-->
 
   </body>
 </html>
