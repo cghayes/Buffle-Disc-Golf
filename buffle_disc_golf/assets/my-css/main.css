@@ -357,7 +357,7 @@ button .fa {
 
 .social-media {
   display: flex;
-  font-size: 1.3em;
+  font-size: 1.5em;
   margin: 0;
   padding: 0;
   /* height: 80px; */
@@ -365,8 +365,8 @@ button .fa {
 }
 
 .social-media .fab {
-  margin: 0;
-  padding: 10px 30px;
+  margin: 5px 15px;
+  padding: 10px 10px;
 }
 
 .social-media>a {
