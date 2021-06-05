@@ -8,4 +8,13 @@ The website is not optimized for mobile at this point as mobile optimization was
 
 Using a website template was optional for this project. I elected to build it from scratch. In the process, I taught myself Bootstrap and got familiar with working with the Bootstrap grid.
 
-Images were sourced from stock image websites such as Pixabay or Unsplash. Disc product images sourced from Discraft's resources page: https://www.team.discraft.com/resources. 
+Project objectives:
+
+- Conduct keyword research and develop a keyword/key phrase list
+- Create wireframes and site diagram
+- Create keyword optimized content
+- Install Google Analytics on every page
+- Develop an HTML and XML site map
+- Create a blog post
+- Create social media channels
+- Implement local SEO strategies
