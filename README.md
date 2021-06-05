@@ -1,4 +1,4 @@
-ITWP 1450 - SEO Website Project
+# ITWP 1450 - SEO Website Project
 
 This is a made-up e-commerce website built for the primary purpose of practicing SEO tactics.
 
